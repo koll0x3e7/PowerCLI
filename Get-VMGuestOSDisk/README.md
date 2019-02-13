@@ -21,10 +21,10 @@ Modify the receiver.
 **.PARAMETER -Smtp** 
 Modify the mail server.   
 **.EXAMPLE normal output**  
-```PS> .\Get-VMGuestOSDisk -VcServer vc00.contoso.com```
+```PS> .\Get-VMGuestOSDisk -VcServer vc00.contoso.com```   
 **.EXAMPLE with logging**  
-```PS> .\Get-VMGuestOSDisk -VcServer vc00.contoso.com -Log:$true -LogPath "$env:TEMP\$(Get-Date -format ddMMyyyy)_$($VcServer)_VMGuestOSDisk.csv"```
+```PS> .\Get-VMGuestOSDisk -VcServer vc00.contoso.com -Log:$true -LogPath "$env:TEMP\$(Get-Date -format ddMMyyyy)_$($VcServer)_VMGuestOSDisk.csv"```   
 **.EXAMPLE with a mail report**  
-```PS> .\Get-VMGuestOSDisk -VcServer vc00.contoso.com -Mail:$true -From powershell@contoso.com -To report@contoso.com -Smtp mail.contoso.com```
+```PS> .\Get-VMGuestOSDisk -VcServer vc00.contoso.com -Mail:$true -From powershell@contoso.com -To report@contoso.com -Smtp mail.contoso.com```   
 **.EXAMPLE with logging and a mail report**  
-```PS> .\Get-VMGuestOSDisk -VcServer vc00.contoso.com -Log:$true -LogPath "$env:TEMP\$(Get-Date -format ddMMyyyy)_$($VcServer)_VMGuestOSDisk.csv" -Mail:$true -From powershell@contoso.com -To report@contoso.com -Smtp mail.contoso.com```  
+```PS> .\Get-VMGuestOSDisk -VcServer vc00.contoso.com -Log:$true -LogPath "$env:TEMP\$(Get-Date -format ddMMyyyy)_$($VcServer)_VMGuestOSDisk.csv" -Mail:$true -From powershell@contoso.com -To report@contoso.com -Smtp mail.contoso.com```   
