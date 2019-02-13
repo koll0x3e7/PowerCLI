@@ -22,7 +22,7 @@
  .PARAMETER -Log 
  Keep the report as a CSV/LOG saved on your file system. Default path is $LogPath.  
  .PARAMETER -LogPath 
- Specify a path for the CSV/LOG report. Default = "$env:TEMP\$(Get-Date -format ddMMyyyy)_$($VcServer)_VMGuestOSDisk.csv"  
+ Specify a path for the CSV/LOG report. Default: "$env:TEMP\$(Get-Date -format ddMMyyyy)_$($VcServer)_VMGuestOSDisk.csv"  
  .PARAMETER -Mail 
  Enable/Disable mail.   
  .PARAMETER -From 
