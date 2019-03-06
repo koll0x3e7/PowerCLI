@@ -16,7 +16,7 @@
  .REQUIREMENT  
  Module: VMware.PowerCLI  
  .NOTES   
- Author: Raphael Koller (@koll0x3e7)  
+ Author: Raphael Koller (@0x3e4)  
  .PARAMETER -VcServer 
  IP or FQDN of the vSphere server. It's a mandatory parameter.  
  .PARAMETER -Log 
